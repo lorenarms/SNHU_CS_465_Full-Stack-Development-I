@@ -7,7 +7,11 @@
             <li>
                 <a href="index.html">Home</a>
             </li>
+            {{#if travel}}
+            <li class = "selected">
+            {{else}}
             <li>
+            {{/if}}
                 <a href="/travel">Travel</a>
             </li>
             <li>
@@ -19,8 +23,11 @@
             <li>
                 <a href="news.html">News</a>
             </li>
-            {{!-- <li class="selected"> --}}
+            {{#if about}}
+            <li class = "selected">
+            {{else}}
             <li>
+            {{/if}}
                 <a href="/about">About</a>
             </li>
             <li>

@@ -7,7 +7,7 @@ const controller = require('../controllers/travel');
 //   res.render('index', { title: 'Express' });
 // });
 
-router.get('/', controller.travel);
+router.get('/', controller.travelList);
 
 
 module.exports = router;

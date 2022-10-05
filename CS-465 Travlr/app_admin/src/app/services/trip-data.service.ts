@@ -50,10 +50,12 @@ export class TripDataService {
       .catch(this.handleError);
   }
 
+
+
   public deleteTrip(tripCode: string): Promise<Trip> {
     console.log('Inside TripDataService#deleteTrip(tripCode)');
     return this.http
-      .delete(this.tripUrl + tripCode)
+      .delete(this.tripUrl + tripCode)    // This was key to connection to database
       .toPromise()
       .then(response => response.json() as Trip)
       .catch(this.handleError);

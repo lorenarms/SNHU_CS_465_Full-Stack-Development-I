@@ -1,0 +1,13 @@
+<div class="card ml-4" style="width: 18rem;">
+  <div class="card-header">{{ trip.name }}</div>
+    <img src="assets/images/{{ trip.image }}" alt="trip thumbnail" class="card-img-top">
+    <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted">{{ trip.resort }}</h6>
+      <p class="card-subtitle mt-3 mb-3 text-muted">
+        {{trip.length}} only {{trip.perPerson|currency:'USD':true}} per person</p>
+      <p class="card-text" [innerHTML]="trip.description"></p>
+      <div>
+        <button (click)="editTrip(trip)" class="btn btn-info">Edit</button>
+      </div>
+  </div>
+</div>

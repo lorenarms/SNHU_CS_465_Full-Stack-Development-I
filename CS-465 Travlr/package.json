@@ -9,6 +9,7 @@
     "start:server": "nodemon server.js"
   },
   "dependencies": {
+    "@angular/cli": "^6.2.9",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
@@ -20,9 +21,8 @@
     "request": "^2.88.2",
     "seedgoose": "^2.0.2"
   },
-
   "devDependencies": {
     "hbs": "^4.2.0",
-    "seedgoose":"^2.0.2"
+    "seedgoose": "^2.0.2"
   }
 }

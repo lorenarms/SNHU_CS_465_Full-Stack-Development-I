@@ -3,9 +3,12 @@
     <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <label>Code:</label>
-          <input type="text" formControlName="code" 
+          <input 
+            type="text" 
+            formControlName="code" 
             placeholder="Trip Code" class="form-control"
-            [ngClass]="{ 'is-invalid': submitted && f.code.errors }">
+            [ngClass]="{ 'is-invalid': submitted && f.code.errors }"
+            />
           <div *ngIf="submitted && f.code.errors">
             <div *ngIf="f.code.errors.required">
               Trip Code is required
@@ -14,9 +17,12 @@
         </div>
         <div class="form-group">
           <label>Name:</label>
-          <input type="text" formControlName="name" 
+          <input 
+            type="text" 
+            formControlName="name" 
             placeholder="Name" class="form-control"
-            [ngClass]="{ 'is-invalid': submitted && f.name.errors }">
+            [ngClass]="{ 'is-invalid': submitted && f.name.errors }"
+          />
           <div *ngIf="submitted && f.name.errors">
             <div *ngIf="f.name.errors.required">
               Name is required

@@ -100,7 +100,7 @@ const tripsUpdateTrip = async (req, res) => {
                         message: "Trip not found with code " + req.params.tripCode
                     });
             }
-            req.send(trip);
+            res.send(trip);
 
         }).catch(err => {
             if (err.kind === 'ObjectId') {

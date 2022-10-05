@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 import { FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { TripDataService } from '../services/trip-data.service';
+import { Trip } from 'models/trip';
 
 
 @Component({
@@ -29,22 +30,32 @@ export class EditTripComponent implements OnInit {
       return;
     }
 
+    console.log("EditTripComponent#onInit found tripCode " + tripCode);
+
     this.editForm = this.formBuilder.group({
       _id: [],
       code: [tripCode, Validators.required],
-      name: ['', Validators.required],
-      length: ['', Validators.required],
-      start: ['', Validators.required],
-      resort: ['', Validators.required],
-      perPerson: ['', Validators.required],
-      image: ['', Validators.required],
-      description: ['', Validators.required],
+      name: ["", Validators.required],
+      length: ["", Validators.required],
+      start: ["", Validators.required],
+      resort: ["", Validators.required],
+      perPerson: ["", Validators.required],
+      image: ["", Validators.required],
+      description: ["", Validators.required],
     })
+
+    console.log(
+      "EditTripComponent#onInit calling TripDataService#getTrip('" +
+        tripCode +
+        "')"
+    );
 
     this.tripService.getTrip(tripCode)
       .then(data => {
         // console.log(data);
-        this.editForm.patchValue(data);
+        
+        this.editForm.patchValue(data[0]);
+        
         console.log("patched")
         // using editForm.setValue() will throw a console error
       })
@@ -61,6 +72,11 @@ export class EditTripComponent implements OnInit {
             this.router.navigate(['']);
         });
     }
+  }
+
+  // get the form short name to access the form fields
+  get f() {
+    return this.editForm.controls;
   }
 
 }

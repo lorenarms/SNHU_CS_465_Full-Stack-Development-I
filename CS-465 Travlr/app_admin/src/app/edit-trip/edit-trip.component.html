@@ -92,9 +92,13 @@
 
         <div class="form-group">
           <label>Description:</label>
-          <input type="text" formControlName="description" 
+          <textarea 
+            rows = "5" 
+            formControlName="description" 
+            style="width: 20rem"
             placeholder="Description" class="form-control"
             [ngClass]="{ 'is-invalid': submitted && f.description.errors }">
+          </textarea>
           <div *ngIf="submitted && f.description.errors">
             <div *ngIf="f.description.errors.required">
               Description is required

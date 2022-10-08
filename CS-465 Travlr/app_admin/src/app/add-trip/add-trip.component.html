@@ -63,7 +63,7 @@
         <div class="form-group">
           <label>Price per Person:</label>
           <input type="text" formControlName="perPerson" 
-            placeholder="$" class="form-control"
+            placeholder="$0.00" class="form-control"
             [ngClass]="{ 'is-invalid': submitted && f.perPerson.errors }">
           <div *ngIf="submitted && f.resort.errors">
             <div *ngIf="f.perPerson.errors.required">
@@ -75,7 +75,7 @@
         <div class="form-group">
           <label>Image URL:</label>
           <input type="text" formControlName="image" 
-            placeholder="$" class="form-control"
+            placeholder="Image URL" class="form-control"
             [ngClass]="{ 'is-invalid': submitted && f.image.errors }">
           <div *ngIf="submitted && f.image.errors">
             <div *ngIf="f.image.errors.required">
@@ -86,9 +86,14 @@
 
         <div class="form-group">
           <label>Description:</label>
-          <input type="text" formControlName="description" 
-            placeholder="$" class="form-control"
+          <textarea 
+            rows = "5" 
+            formControlName="description" 
+            style="width: 20rem"
+            placeholder="Description" class="form-control"
             [ngClass]="{ 'is-invalid': submitted && f.description.errors }">
+          </textarea>
+            
           <div *ngIf="submitted && f.description.errors">
             <div *ngIf="f.description.errors.required">
               Description is required

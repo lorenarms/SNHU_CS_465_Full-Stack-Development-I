@@ -78,6 +78,37 @@ const tripsAddTrip = async (req, res) => {
     });
 }
 
+const tripsDeleteTrip = async (req, res) => {
+
+    console.log("inside trips.js on server #tripsDeleteTrip");
+    model.findOneAndDelete({'code': req.params.tripCode})
+    
+
+    .then(trip => {
+        if (!trip) {
+            return res
+                .status(404)
+                .send({
+                    message: "Trip not found with code " + req.params.tripCode
+                });
+
+        }
+        res.send(trip);
+    }).catch(err => {
+        if (err.kind === 'ObjectId') {
+            return res
+                .status(404)
+                .send({
+                    message: "Trip not found with code " + req.params.tripCode
+                });
+        }
+        return res
+            .status(500) // server error
+            .json(err);
+    });
+
+}
+
 const tripsUpdateTrip = async (req, res) => {
     console.log(req.body);
     model  
@@ -121,6 +152,7 @@ module.exports = {
     getAllTrips,
     getTripByCode,
     tripsAddTrip,
-    tripsUpdateTrip
+    tripsUpdateTrip,
+    tripsDeleteTrip
 };
 

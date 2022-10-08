@@ -1,7 +1,16 @@
 const express = require('express');
 const router = express.Router();
 
+const authController = require('../controllers/authentication')
 const tripsController = require('../controllers/trips');
+
+router
+    .route('/login')
+    .post(authController.login);
+
+router
+    .route('/register')
+    .post(authController.register);
 
 router
     .route('/trips')
@@ -11,6 +20,7 @@ router
 router
     .route('/trip/:tripCode')
     .get(tripsController.getTripByCode)
-    .put(tripsController.tripsUpdateTrip);
+    .put(tripsController.tripsUpdateTrip)
+    .delete(tripsController.tripsDeleteTrip);
 
 module.exports = router;

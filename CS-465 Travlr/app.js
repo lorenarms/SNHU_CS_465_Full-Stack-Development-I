@@ -72,7 +72,7 @@ app.use(function(req, res, next) {
 
 // catch unauthorized error and create 404
 app.use((err, req, res, next) => {
-  if (err.name === 'Unauthorized') {
+  if (err.name === 'UnauthorizedError') {
     res
       .status(401)
       .json({"message": err.name + ": " + err.message});

@@ -88,7 +88,7 @@ export class TripDataService {
     return this.http
       .post(url, user)
       .toPromise()
-      .then(response => response.json() as AuthResponse)
+      .then((response) => response.json() as AuthResponse)
       .catch(this.handleError);
   }
 

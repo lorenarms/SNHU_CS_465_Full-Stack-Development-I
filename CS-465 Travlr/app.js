@@ -7,9 +7,9 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const hbs = require('hbs');
 const passport = require('passport');
-var users = require('./app_api/models/user')
+var users = require('./app_server/database/models/user')
 
-require('./app_api/models/db');
+require('./app_server/database/db');
 
 require('./app_api/config/passport');
 
@@ -70,9 +70,9 @@ app.use(function(req, res, next) {
 });
 
 
-// catch unauthorized error and create 404
+// catch unauthorized error and create 401
 app.use((err, req, res, next) => {
-  if (err.name === 'Unauthorized') {
+  if (err.name === 'UnauthorizedError') {
     res
       .status(401)
       .json({"message": err.name + ": " + err.message});

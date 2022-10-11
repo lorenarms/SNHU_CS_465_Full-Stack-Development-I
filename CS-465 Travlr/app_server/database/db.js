@@ -42,4 +42,4 @@ process.on('SIGTERM', () => {
 });
 
 require('./models/trips');
-require('./models/user')
+require('./models/user');

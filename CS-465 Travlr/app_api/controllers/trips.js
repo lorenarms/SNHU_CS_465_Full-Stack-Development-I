@@ -29,14 +29,17 @@ const getUser = (req, res, callback) => {
                 }
                 callback(req, 
                     res.json({"message": "User found"}), 
+                    console.log('user found'),
+                    console.log(req.auth),
                     user.name);
                 });
     } else {
         
         return res
             .status(404)
-            
-            .json({"message": "User was not found"});
+            .json({"message": "User was not found"}),
+            console.log('user not found'),
+            console.log(req.auth);
             
     }
 };

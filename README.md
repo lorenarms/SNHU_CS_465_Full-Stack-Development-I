@@ -33,9 +33,23 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
   
 <p>More images and information coming soon!</p>
  
+<h3>Front-end Customer Facing Website</h3>
+<p>The main customer page uses standard HTML with javascript and handlebars to access the backend database (served by MongoDB local hosting) and display available information to customers. </p>
+
+<table>
+    <tr>
+        <th>Homepage</th>
+        <th>Travel Page</th>    
+    </tr>
+    <tr>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="height:300px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="height:300px;"></td>
+    </tr>
+        
+</table>
   
 <h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.
+<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.</p>
 <table>
     <tr>
         <th>Homepage</th>
@@ -62,9 +76,13 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
     </tr>
 </table>
 
-<h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
 
+<h3>Backend in Action</h3>
+<p>
+  Below is a short animation of the backend webpage in action. In it, a user logs into the web application, showing that the "Add Trip", "Edit Trip", and "Delete" functionality are only available to logged-in users.
+</p>
 
+<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travlr_login.gif" alt="[deleted]" style="height:300px;">
  
 
 <p>

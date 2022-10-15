@@ -33,9 +33,23 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
   
 <p>More images and information coming soon!</p>
  
+<h3>Front-end Customer Facing Website</h3>
+<p>The main customer page uses standard HTML with javascript and handlebars to access the backend database (served by MongoDB local hosting) and display available information to customers. </p>
+
+<table>
+    <tr>
+        <th>Homepage</th>
+        <th>Travel Page</th>    
+    </tr>
+    <tr>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="height:300px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="height:300px;"></td>
+    </tr>
+        
+</table>
   
 <h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.
+<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.</p>
 <table>
     <tr>
         <th>Homepage</th>
@@ -62,10 +76,15 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
     </tr>
 </table>
 
-<h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
 
+<h3>Backend in Action</h3>
+<p>
+  Below is a short animation of the backend webpage in action. In it, a user logs into the web application, showing that the "Add Trip", "Edit Trip", and "Delete" functionality are only available to logged-in users.
+</p>
 
- 
+<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travlr_login.gif" alt="[deleted]" style="height:300px;">
+
+More images can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/images" target="_blank"> here </a>
 
 <p>
 In order to create a project similar to the one above you'll need a few things installed on your machine. First, I used <a href="https://code.visualstudio.com/" target="_blank"> VS Code </a>, but just about any IDE will do (Code works best for projects like this, in my opinion). You'll need to install <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp" target="_blank"> node.js </a>, <a href="https://www.geeksforgeeks.org/express-js/" target="_blank"> express </a>, the <a href="https://angular.io/guide/setup-local" target="_blank"> Angular CLI </a>, and some sort of local database software. This project uses <a href="https://www.geeksforgeeks.org/mongodb-an-introduction/" target="_blank"> MongoDB </a>, which can be installed alongside Compass, the UI for the local database. I made a video about how to install that <a href="https://www.youtube.com/watch?v=dj3yQAd6cAM" target="_blank"> here </a>.

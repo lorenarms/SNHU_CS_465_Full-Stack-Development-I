@@ -22,7 +22,7 @@ This course covers the following competencies, which represent the knowledge and
 </p>
 <hr>
 
-<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/CS-465%20Travlr/public/images/logo.png" atl="[logo]" style="width:250px;">
+<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/logo.png" alt="[logo]" style="width:250px;">
 
 <h2>Travlr Web Application</h2>
 <p>This class focused on the development of a single web application using the MEAN stack process (MongoDB, express.js framework, Angular frontend framework, and node.js backend server framework). The entire project was designed as a travel website, "Travlr Getaways", and can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/CS-465%20Travlr" target="_blank"> in this folder</a>. 
@@ -95,7 +95,7 @@ In order to create a project similar to the one above you'll need a few things i
 <p>Check out my <a href="https://www.youtube.com/channel/UCGtp8PRHgPCQHYoSxbMST8A" target="_blank">YouTube channel</a> for more videos about coding projects I've done.</p>
 <p>Also, check out my <a href="http://artllj.com" target="_blank">Personal Website</a> for more information about me, and my <a href="https://www.linkedin.com/in/lorenarms95/" target="_blank">LinkedIn</a> to see if I'd be a good fit for your team. </p>
 <h3>Thanks for stopping by!</h3>
-<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/profile.png" atl="[picture of me]" style="width:100px;">
+<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/profile.png" alt="[picture of me]" style="width:100px;">
 <p>much love
 -L
 </p>

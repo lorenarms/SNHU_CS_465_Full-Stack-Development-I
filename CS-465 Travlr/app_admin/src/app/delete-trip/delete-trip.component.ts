@@ -31,7 +31,7 @@ export class DeleteTripComponent implements OnInit {
     this.tripService.deleteTrip(tripCode)
       .then( data => {
         console.log(data);
-        this.router.navigate(['']);
+        this.router.navigate(['list-trips']);
       });
   }
 

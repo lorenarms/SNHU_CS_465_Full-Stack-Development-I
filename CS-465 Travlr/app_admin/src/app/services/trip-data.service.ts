@@ -102,6 +102,7 @@ export class TripDataService {
   }
 
   private makeAuthApiCall(urlPath: string, user: User): Promise<AuthResponse> {
+    console.log('Inside makeAuthApiCall');
     const url: string = `${this.apiBaseUrl}/${urlPath}`;
     return this.http
       .post(url, user)

@@ -7,10 +7,6 @@ const User = mongoose.model('users');
 // by default, you need to set it to false.
 mongoose.set('useFindAndModify', false);
 
-// GET: /trips
-
-
-
 const getUser = (req, res, callback) => {
 
     console.log('in #getUser');
@@ -22,7 +18,7 @@ const getUser = (req, res, callback) => {
         User
             .findOne({ email : req.auth.email })
             .exec((err, user) => {
-                if (!user) {
+                if (!user) { 
                     return res  
                         .status(404)
                         .json({"message": "Email not found"});

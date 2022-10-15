@@ -70,7 +70,7 @@ export class EditTripComponent implements OnInit {
         .then( data => {
             console.log(data);
             
-            this.router.navigate(['']);
+            this.router.navigate(['list-trips']);
         });
     }
   }

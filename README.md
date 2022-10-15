@@ -83,7 +83,8 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
 </p>
 
 <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travlr_login.gif" alt="[deleted]" style="height:300px;">
- 
+
+More images can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/images" target="_blank"> here </a>
 
 <p>
 In order to create a project similar to the one above you'll need a few things installed on your machine. First, I used <a href="https://code.visualstudio.com/" target="_blank"> VS Code </a>, but just about any IDE will do (Code works best for projects like this, in my opinion). You'll need to install <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp" target="_blank"> node.js </a>, <a href="https://www.geeksforgeeks.org/express-js/" target="_blank"> express </a>, the <a href="https://angular.io/guide/setup-local" target="_blank"> Angular CLI </a>, and some sort of local database software. This project uses <a href="https://www.geeksforgeeks.org/mongodb-an-introduction/" target="_blank"> MongoDB </a>, which can be installed alongside Compass, the UI for the local database. I made a video about how to install that <a href="https://www.youtube.com/watch?v=dj3yQAd6cAM" target="_blank"> here </a>.

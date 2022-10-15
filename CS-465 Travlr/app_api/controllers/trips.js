@@ -12,10 +12,15 @@ mongoose.set('useFindAndModify', false);
 
 
 const getUser = (req, res, callback) => {
+
+    console.log('in #getUser');
+    //console.log(req.payload.email);
     
-    if (req.payload && req.payload.email) {
+    if (req.auth && req.auth.email) {
+
+    // if (req.payload && req.payload.email) {
         User
-            .findOne({ email : req.payload.email })
+            .findOne({ email : req.auth.email })
             .exec((err, user) => {
                 if (!user) {
                     return res  
@@ -26,20 +31,23 @@ const getUser = (req, res, callback) => {
                     return res
                         .status(404)
                         .json(err);
+
                 }
                 callback(req, 
                     res.json({"message": "User found"}), 
-                    console.log('user found'),
-                    console.log(req.auth),
-                    user.name);
+                    console.log('callback'),
+                    console.log(req.auth)
+                    
+                    );
+
+
                 });
     } else {
         
         return res
             .status(404)
-            .json({"message": "User was not found"}),
-            console.log('user not found'),
-            console.log(req.auth);
+            .json({"message": "User was not found"});
+            console.log(req.payload);
             
     }
 };
@@ -112,9 +120,8 @@ const tripsAddTrip = async (req, res) => {
                         .status(400) // bad request, invalid content
                         .json(err);
                 } else {
-                    return res  
-                        .status(201) // created
-                        .json(trip);
+                    return
+
                 }
             });
         }
@@ -138,7 +145,9 @@ const tripsDeleteTrip = async (req, res) => {
                         });
         
                 }
-                res.send(trip);
+                return res
+                    
+
             }).catch(err => {
                 if (err.kind === 'ObjectId') {
                     return res
@@ -150,7 +159,8 @@ const tripsDeleteTrip = async (req, res) => {
                 return res
                     .status(500) // server error
                     .json(err);
-            });
+            })
+            console.log("return from delete trip");
 
         });
 
@@ -160,6 +170,7 @@ const tripsDeleteTrip = async (req, res) => {
 const tripsUpdateTrip = async (req, res) => {
     getUser(req, res,
         (req, res) => {
+            
             Trip  
                 .findOneAndUpdate({ 'code': req.params.tripCode }, {
                     code: req.body.code,
@@ -172,6 +183,7 @@ const tripsUpdateTrip = async (req, res) => {
                     image: req.body.image,
                     description: req.body.description
                 }, {new: true})
+                
                 .then(trip => {
                     if (!trip) {
                         return res
@@ -180,7 +192,8 @@ const tripsUpdateTrip = async (req, res) => {
                                 message: "Trip not found with code " + req.params.tripCode
                             });
                     }
-                    res.send(trip);
+                    return res
+                        
         
                 }).catch(err => {
                     if (err.kind === 'ObjectId') {
@@ -193,9 +206,9 @@ const tripsUpdateTrip = async (req, res) => {
                     return res
                         .status(500) // server error
                         .json(err);
-                });
+                })
+                console.log("completed updateTrip");
         })
-    console.log(req.body);
 }
 
 const tripsFindCode = async (req, res) => {

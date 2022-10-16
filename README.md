@@ -79,7 +79,7 @@ This was a very challenging, very interesting, and very <i>very</i> fun project 
   
 <h3>Database and Code Sample</h3>
   <p>
-    The database for this application is MongoDB, a NoSQL database that uses JSON documents to store objects. Below is an image of the database running locally, showing some of the documents representing the trips that a user can interact with. Below that is a small sampling of the code in progress, running in Visual Studio Code. 
+    The database for this application is MongoDB, a NoSQL database that uses JSON documents to store objects. Below is an image of the database running locally, showing some of the documents representing the trips that a user can interact with. Below that is a small sampling of the code in progress, running in Visual Studio Code. (Note: These images are just a flex, anyone reading this can see just how much work went into this project)
   </p>
   
 <table>

@@ -1,4 +1,4 @@
-<h1>CS 465: Full Stack Development I and II</h1>
+<h1>CS 465: Full Stack Development I</h1>
 <h2>Lawrence Artl III<br>
   Southern New Hampshire University</h2>
 Center: Online

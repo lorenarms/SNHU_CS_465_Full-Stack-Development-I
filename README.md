@@ -1,3 +1,5 @@
+
+
 <h1>CS 465: Full Stack Development I</h1>
 <h2>Lawrence Artl III<br>
   Southern New Hampshire University</h2>
@@ -21,6 +23,8 @@ This course covers the following competencies, which represent the knowledge and
 </ul>
 </p>
 <hr>
+
+
 
 <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/logo.png" alt="[logo]" style="width:250px;">
 
@@ -115,6 +119,14 @@ More images can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-
 
 <p>
 In order to create a project similar to the one above you'll need a few things installed on your machine. First, I used <a href="https://code.visualstudio.com/" target="_blank"> VS Code </a>, but just about any IDE will do (Code works best for projects like this, in my opinion). You'll need to install <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp" target="_blank"> node.js </a>, <a href="https://www.geeksforgeeks.org/express-js/" target="_blank"> express </a>, the <a href="https://angular.io/guide/setup-local" target="_blank"> Angular CLI </a>, and some sort of local database software. This project uses <a href="https://www.geeksforgeeks.org/mongodb-an-introduction/" target="_blank"> MongoDB </a>, which can be installed alongside Compass, the UI for the local database. I made a video about how to install that <a href="https://www.youtube.com/watch?v=dj3yQAd6cAM" target="_blank"> here </a>.
+</p>
+
+<h3>My Approach to the Project</h3>
+<p>
+While the above project had a guide to follow during development, the guide was far from perfect, and there were many instances where refactoring was a necessity. Some of the installed component's versions are newer than what the original code was written for, and thus some changes needed to be made to get routes and other parts to work properly. With Javascript not being my primary language, there was also a bit of a steep learning curve at first. However, problem-solving is my forte, and I view debugging as not so much a tedium but a fun exploration of the code. Therefore making the project work was a very enjoyable learning experience.
+</p>
+<p>
+My approach to solving the above problem (and all others in any other aspect of my life) is methodical and logical. I typically know the limitations and abilites of the tools I am using to solve the problem, and using a one-step-at-a-time method helps me to work efficiently. I rarely have the problem in missing the "forest for the trees"; in fact, I'm very good at stepping back from the details and seeing the big picture for what it is, and then stepping back into the details with an understanding of how they effect the overall problem / solution. 
 </p>
 
   

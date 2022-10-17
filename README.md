@@ -1,140 +1,270 @@
-
-
-<h1>CS 465: Full Stack Development I</h1>
-<h2>Lawrence Artl III<br>
-  Southern New Hampshire University</h2>
-Center: Online
-
-<h2>
-Course Prerequisites
-</h2>
-108 credits including CS 340
-<h2>
-Course Description
-</h2>
-<p>Students will design and develop a full stack application through the utilization of programming language frameworks. In creating a full stack application, students will also be responsible for developing a database as well as the code that interfaces their application to the database. 
-</p>
-<p>
-This course covers the following competencies, which represent the knowledge and skills relevant to your field:
-<ul>
-    <li>CS-30427: Design the architecture of a web application
-    <li>CS-40428: Build a web application using frameworks
-    <li>CS-40429: Develop and integrate a database using frameworks
-</ul>
-</p>
-<hr>
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
 
-<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/logo.png" alt="[logo]" style="width:250px;">
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<h2>Travlr Web Application</h2>
-<p>This class focused on the development of a single web application using the MEAN stack process (MongoDB, express.js framework, Angular frontend framework, and node.js backend server framework). The entire project was designed as a travel website, "Travlr Getaways", and can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/CS-465%20Travlr" target="_blank"> in this folder</a>. 
-This was a very challenging, very interesting, and very <i>very</i> fun project for me to work on. I enjoy web development more than any other type of project, so this class and application being the culmination of all my learning was just too perfect.
-</p>
 
-<p>To get a better idea of what this whole project was about, check out the <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/module-6/writeups/Project%20Guidelines%20and%20Rubric.pdf" target="_blank"> Guidelines and Rubric document</a>. You can also view the <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/module-6/writeups/CS%20465%20Travlr%20Getaways%20Wireframe.pdf" target="_blank"> Wireframe document </a>that shows you what the completed web project *should* look like when it's completed. This project went through several design changes as it was developed, but the wireframe was the main guide to get to the finished product. The <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/writeups/Software%20Design%20Document%20-Module%207%20-%20Artl.docx.pdf" target="_blank"> final design document</a> summarizes the entire project, including routes and testing.</p>
-  
-<p>More images and information coming soon!</p>
- 
-<h3>Front-end Customer Facing Website</h3>
-<p>The main customer page uses standard HTML with javascript and handlebars to access the backend database (served by MongoDB local hosting) and display available information to customers. </p>
 
-<table>
-    <tr>
-        <th>Homepage</th>
-        <th>Travel Page</th>    
-    </tr>
-    <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="height:300px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="height:300px;"></td>
-    </tr>
-        
-</table>
-  
-<h3>Backend SPA (using Angular, Express, node.js, and MongoDB)</h3>
-<p>The project incorporated a administrative backend that utilized the Angular, Express, node.js, and MongoDB (MEAN) stack system to deliver a single-page application to administrators. In this SPA a user could log-in, Add trips, Edit trips, and Delete trips. All changes made in the backend were instantly visible on the front end page for customers.</p>
-<table>
-    <tr>
-        <th>Homepage</th>
-        <th>Login Screen</th>
-        <th>Logged In</th>
-    </tr>
-    <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_logged_out.png" alt="[homepage]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/login_page.png" alt="[login]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/main_page.png" alt="[logged in]" style="height:200px;"></td>
-    </tr>
-</table>
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="210">
+  </a>
 
-<table>
-    <tr>
-        <th>Editing a Trip</th>
-        <th>Trip Succesfully Edited</th>
-        <th>Trip Deleted</th
-    </tr>
-    <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/editing_trip.png" alt="[edit]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_edited_successfully.png" alt="[success]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_deleted_successfully.png" alt="[deleted]" style="height:200px;"></td>
-    </tr>
-</table>
-  
-  
-<h3>Database and Code Sample</h3>
-  <p>
-    The database for this application is MongoDB, a NoSQL database that uses JSON documents to store objects. Below is an image of the database running locally, showing some of the documents representing the trips that a user can interact with. Below that is a small sampling of the code in progress, running in Visual Studio Code. (Note: These images are just a flex, anyone reading this can see just how much work went into this project)
+  <h3 align="center">CS 465: Full Stack Development I</h3>
+
+  <p align="center">
+    Lawrence Artl III
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
-  
-<table>
-  <tr>
-    <th>MongoDB</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/database.png" alt="[edit]" style="height:300px;">
-    </td>
-  </tr>
-</table>
+</div>
 
-<table>
-  <tr>
-    <th>Code in Progress</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/code_sample.png" alt="[edit]" style="height:300px;">
-    </td>
-  </tr>
-</table>
 
-<h3>Backend in Action</h3>
-<p>
-  Below is a short animation of the backend webpage in action. In it, a user logs into the web application, showing that the "Add Trip", "Edit Trip", and "Delete" functionality are only available to logged-in users.
-</p>
 
-<img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travlr_login.gif" alt="[deleted]" style="height:300px;">
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-More images can be found <a href="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/tree/main/images" target="_blank"> here </a>
 
-<p>
-In order to create a project similar to the one above you'll need a few things installed on your machine. First, I used <a href="https://code.visualstudio.com/" target="_blank"> VS Code </a>, but just about any IDE will do (Code works best for projects like this, in my opinion). You'll need to install <a href="https://www.w3schools.com/nodejs/nodejs_intro.asp" target="_blank"> node.js </a>, <a href="https://www.geeksforgeeks.org/express-js/" target="_blank"> express </a>, the <a href="https://angular.io/guide/setup-local" target="_blank"> Angular CLI </a>, and some sort of local database software. This project uses <a href="https://www.geeksforgeeks.org/mongodb-an-introduction/" target="_blank"> MongoDB </a>, which can be installed alongside Compass, the UI for the local database. I made a video about how to install that <a href="https://www.youtube.com/watch?v=dj3yQAd6cAM" target="_blank"> here </a>.
-</p>
 
-<h3>My Approach to the Project</h3>
-<p>
-While the above project had a guide to follow during development, the guide was far from perfect, and there were many instances where refactoring was a necessity. Some of the installed component's versions are newer than what the original code was written for, and thus some changes needed to be made to get routes and other parts to work properly. With Javascript not being my primary language, there was also a bit of a steep learning curve at first. However, problem-solving is my forte, and I view debugging as not so much a tedium but a fun exploration of the code. Therefore making the project work was a very enjoyable learning experience.
-</p>
-<p>
-My approach to solving the above problem (and all others in any other aspect of my life) is methodical and logical. I typically know the limitations and abilites of the tools I am using to solve the problem, and using a one-step-at-a-time method helps me to work efficiently. I rarely have the problem in missing the "forest for the trees"; in fact, I'm very good at stepping back from the details and seeing the big picture for what it is, and then stepping back into the details with an understanding of how they effect the overall problem / solution. 
-</p>
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-  
-<hr>
-<p>Check out my <a href="https://www.youtube.com/channel/UCGtp8PRHgPCQHYoSxbMST8A" target="_blank">YouTube channel</a> for more videos about coding projects I've done.</p>
-<p>Also, check out my <a href="http://artllj.com" target="_blank">Personal Website</a> for more information about me, and my <a href="https://www.linkedin.com/in/lorenarms95/" target="_blank">LinkedIn</a> to see if I'd be a good fit for your team. </p>
-<h3>Thanks for stopping by!</h3>
-<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/profile.png" alt="[picture of me]" style="width:100px;">
-<p>much love
--L
-</p>
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+
+Here's why:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* You shouldn't be doing the same tasks over and over like creating a README from scratch
+* You should implement DRY principles to the rest of your life :smile:
+
+Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+
+Use the `BLANK_README.md` to get started.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [Img Shields](https://shields.io)
+* [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [React Icons](https://react-icons.github.io/react-icons/search)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next-url]: https://nextjs.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 

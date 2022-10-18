@@ -254,7 +254,7 @@ To install and run the application, follow the instructions below.
 </table>
 
 
-_For more examples, please refer to the [Design Documnet](https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/writeups/Software%20Design%20Document%20-Module%207%20-%20Artl.docx.pdf)_
+_For more examples, please refer to the [Design Document](https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/writeups/Software%20Design%20Document%20-Module%207%20-%20Artl.docx.pdf)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

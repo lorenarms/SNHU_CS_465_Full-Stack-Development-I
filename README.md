@@ -109,7 +109,7 @@ This course covers the following competencies, which represent the knowledge and
 ## About The Project
 <div align = "center">
   <h3>"Travlr" Web Application</h3>
-  <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/images/user_facing_page.png" alt="Main" width="500"><p></p>
+  <img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development-I/blob/main/images/user_facing_page.png" alt="Main" width=auto><p></p>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 </div>
 
@@ -219,8 +219,8 @@ To install and run the application, follow the instructions below.
         <th>Travel Page</th>    
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="height:300px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="height:300px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_facing_page.png" alt="[main user page]" style="width=auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/travel_page_user.png" alt="[travel page]" style="width=auto;"></td>
     </tr>
         
 </table>
@@ -234,9 +234,9 @@ To install and run the application, follow the instructions below.
         <th>Logged In</th>
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_logged_out.png" alt="[homepage]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/login_page.png" alt="[login]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/main_page.png" alt="[logged in]" style="height:200px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/user_logged_out.png" alt="[homepage]" style="width=auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/login_page.png" alt="[login]" style="width=auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/main_page.png" alt="[logged in]" style="width=auto;"></td>
     </tr>
 </table>
 
@@ -247,9 +247,9 @@ To install and run the application, follow the instructions below.
         <th>Trip Deleted</th
     </tr>
     <tr>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/editing_trip.png" alt="[edit]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_edited_successfully.png" alt="[success]" style="height:200px;"></td>
-        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_deleted_successfully.png" alt="[deleted]" style="height:200px;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/editing_trip.png" alt="[edit]" style="width=auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_edited_successfully.png" alt="[success]" style="width=auto;"></td>
+        <td><img src="https://github.com/lorenarms/SNHU_CS_465_Full-Stack-Development/blob/main/images/trip_deleted_successfully.png" alt="[deleted]" style="width=auto;"></td>
     </tr>
 </table>
 
